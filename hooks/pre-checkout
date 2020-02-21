@@ -1,8 +1,3 @@
 #!/bin/bash -euo pipefail
-set -x
-
-env | sort
-
 export BUILDKITE_BUILD_CHECKOUT_PATH=${BUILDKITE_PLUGIN_BK_PLUGIN_CHECKOUT_PATH_GIT_CHECKOUT_PATH}
-
-echo "--- Changing checkout path to ${BUILDKITE_BUILD_CHECKOUT_PATH}"
+echo "Changing checkout path to ${BUILDKITE_BUILD_CHECKOUT_PATH}"
