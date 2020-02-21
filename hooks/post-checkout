@@ -1,2 +1,0 @@
-#!/bin/bash -euo pipefail
-echo "--- Testing post-checkout from short-checkout-path"
