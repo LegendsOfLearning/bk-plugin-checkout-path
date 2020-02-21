@@ -1,0 +1,6 @@
+#!/bin/bash -euo pipefail
+set -x
+
+export BUILDKITE_BUILD_CHECKOUT_PATH=${BUILDKITE_PLUGIN_CHECKOUT_PATH_CHECKOUT_PATH}
+
+echo "--- Changing checkout path to ${BUILDKITE_BUILD_CHECKOUT_PATH}"

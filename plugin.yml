@@ -1,0 +1,12 @@
+name: checkout-path
+description: Overrides the checkout path
+author: Ho-Sheng Hsiao <hosh@legendsoflearning.com>
+requirements:
+configuration:
+  properties:
+    checkout_path:
+      type: string
+  additionalProperties: false
+  required:
+    - checkout_path
+
